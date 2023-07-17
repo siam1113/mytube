@@ -11,6 +11,6 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: process.env.APP_URL,
+    baseUrl: "http://localhost:3000",
   },
 });
