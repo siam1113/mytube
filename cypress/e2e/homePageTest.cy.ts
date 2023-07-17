@@ -1,9 +1,10 @@
 describe("home page", () => {
-  it("should display docs, learn, templates and deploy link", () => {
+  it("should display navbar links", () => {
     cy.visit("/");
-    cy.get("h2").contains("Docs").should("be.visible");
-    cy.get("h2").contains("Learn").should("be.visible");
-    cy.get("h2").contains("Templates").should("be.visible");
-    cy.get("h2").contains("Deploy").should("be.visible");
+    cy.get("a").contains("All").should("be.visible");
+    cy.get("a").contains("Channels").should("be.visible");
+    cy.get("a").contains("Videos").should("be.visible");
+    cy.get("a").contains("Shorts").should("be.visible");
+    cy.get("a").contains("Playlists").should("be.visible");
   });
 });
