@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .navbar, .sidebar{
   background: url("https://i.pinimg.com/originals/bc/b4/5f/bcb45f1a18be7f17c9d13d81878f72ef.jpg");
 }
