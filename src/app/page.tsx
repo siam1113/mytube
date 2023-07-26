@@ -1,10 +1,11 @@
 import React from 'react'
-import NavBar from './NavBar'
+import NavBar from './components/NavBar'
+import Main from './components/Main'
 
 export default function Home() {
   return (
     <React.Fragment>
-    <NavBar />
+    <Main/>
     </React.Fragment>
   )
 }
